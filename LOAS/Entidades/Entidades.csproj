@@ -41,8 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\Administration.cs" />
+    <Compile Include="Modules\Computing.cs" />
+    <Compile Include="Modules\Game.cs" />
+    <Compile Include="Modules\Legal.cs" />
+    <Compile Include="Modules\Module.cs" />
+    <Compile Include="Modules\Staff.cs" />
+    <Compile Include="Modules\Treasury.cs" />
+    <Compile Include="Persons\Employe.cs" />
+    <Compile Include="Persons\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeDocuments\Circular.cs" />
+    <Compile Include="TypeDocuments\Document.cs" />
+    <Compile Include="TypeDocuments\Expedient.cs" />
+    <Compile Include="TypeDocuments\Note.cs" />
+    <Compile Include="TypeDocuments\OrderAcquisition.cs" />
+    <Compile Include="TypeDocuments\Resolution.cs" />
     <Compile Include="Validation.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
