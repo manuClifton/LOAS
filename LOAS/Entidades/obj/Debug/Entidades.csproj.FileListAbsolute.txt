@@ -1,0 +1,6 @@
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\obj\Debug\Entidades.dll
+C:\Users\manu_\Desktop\LOAS\L.OAS\Entidades\obj\Debug\Entidades.pdb

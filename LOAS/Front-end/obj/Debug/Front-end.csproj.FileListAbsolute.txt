@@ -1,0 +1,14 @@
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\bin\Debug\Front-end.exe.config
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\bin\Debug\Front-end.exe
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\bin\Debug\Front-end.pdb
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front_end.FrmLogin.resources
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front_end.FrmPrincipal.resources
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front_end.Properties.Resources.resources
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.csproj.GenerateResource.cache
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.csproj.CopyComplete
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.exe
+C:\Users\manu_\Desktop\LOAS\L.OAS\Front-end\obj\Debug\Front-end.pdb
