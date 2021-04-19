@@ -9,14 +9,21 @@ namespace Entidades
     public abstract class Module
     {
         List<Employe> listEmployes;
-        public Module()
+        string name;
+        public Module(string name)
         {
             listEmployes = new List<Employe>();
+            this.Name = name;
         }
         public Employe this[int index]
         {
             get { return this.listEmployes[index]; }
             set { this.listEmployes[index] = value; }
+        }
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
         }
 
 
@@ -33,13 +40,25 @@ namespace Entidades
             }
             return false;
         }
+        public static bool operator -(Module mod, Employe emp)
+        {
 
+            if (!(mod is null) && !(emp is null))
+            {
+                if (mod.listEmployes.Contains(emp))
+                {
+                    mod.listEmployes.Remove(emp);
+                    return true;
+                }
+            }
+            return false;
+        }
         public static bool operator ==(Module mod1, Module mod2)
         {
 
             if (!(mod1 is null) && !(mod2 is null))
             {
-                if (mod1.colorSala == mod2.colorSala ) // chequear cuando es igual un modulo a otro
+                if (mod1.Name == mod2.Name && mod1.listEmployes == mod2.listEmployes ) // chequear cuando es igual un modulo a otro
                 {
                     return true;
                 }
