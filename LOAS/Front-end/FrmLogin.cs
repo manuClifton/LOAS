@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Threading;
 
 namespace Front_end
 {
     public partial class FrmLogin : Form
     {
-        FrmPrincipal frmPrincipal;
+        FrmSuperAdmin frmPrincipal;
         public FrmLogin()
         {
             InitializeComponent();
@@ -58,6 +58,41 @@ namespace Front_end
             }
         }
 
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            if (!(string.IsNullOrEmpty(txtUser.Text)) && !(string.IsNullOrEmpty(txtPass.Text)))
+            {
+                if (txtUser.Text == "Manuel" && txtPass.Text == "123456")
+                {
+
+                    Lb_Error.Text = "";
+                    frmPrincipal = new FrmSuperAdmin();
+                    frmPrincipal.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Lb_Error.Text = "Acceso Denegado. Reintente Nuevamente!";
+                  //  BorrarError("Acceso Denegado. Reintente Nuevamente!");
+                 
+                } // EL ERROR ESTA EN QUE ESCRIBE EN EL FORM DESPUES QUE TERMINA EL EVENTO CLICK
+
+            }
+            else
+            {
+                // Lb_Error.Text = "Campos no pueden ser vacios";
+                BorrarError("Campos no pueden ser vacios");
+            }
+        }
+
+        public void BorrarError(string text)
+        {
+             Thread.Sleep(3000);
+
+            Lb_Error.Text = string.Empty;
+
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -67,33 +102,6 @@ namespace Front_end
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
-        {
-            if (!(string.IsNullOrEmpty(txtUser.Text)) && !(string.IsNullOrEmpty(txtPass.Text)))
-            {
-                if (txtUser.Text == "Manuel" && txtPass.Text == "123456")
-                {
-
-                    Lb_Error.Text = "";
-                    frmPrincipal = new FrmPrincipal();
-                    frmPrincipal.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    Lb_Error.Text = "Acceso Denegado. Reintente Nuevamente!";
-                }
-
-            }
-            else
-            {
-
-                Lb_Error.Text = "Campos no pueden ser vacios";
-            }
-        }
-
-
 
 
 

@@ -15,9 +15,7 @@ namespace Entindades
         protected int dni;
         protected string direccion;
 
-        public Person()    
-        {
-        }
+        public Person() {}
         protected Person(string nombre, string apellido, int dni, string direccion)
         {
             this.Nombre = nombre;

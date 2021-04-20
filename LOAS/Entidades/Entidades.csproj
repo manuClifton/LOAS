@@ -59,6 +59,11 @@
     <Compile Include="TypeDocuments\Resolution.cs" />
     <Compile Include="Validation.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{23A23119-4AF3-4E21-B0F1-E1D4A56AA77E}</Project>
+      <Name>Excepciones</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

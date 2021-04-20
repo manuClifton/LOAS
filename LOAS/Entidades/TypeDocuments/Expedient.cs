@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades.TypeDocuments
 {
-    class Expedient : Document
+    public class Expedient : Document
     {
+        public Expedient() : base() { }
+        public Expedient(Employe emisor, Employe receptor) : base(emisor, receptor)
+        {
 
+        }
     }//
 }//

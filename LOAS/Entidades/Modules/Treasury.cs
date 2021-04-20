@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Modules
 {
-    class Treasury : Module
+    public class Treasury : Module
     {
+        public Treasury() : base() { }
+        public Treasury(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

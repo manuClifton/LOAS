@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class OrderAcquisition : Document
+    public class OrderAcquisition : Document
     {
+        public OrderAcquisition() : base() { }
+        public OrderAcquisition(Employe emisor, Employe receptor) : base(emisor, receptor)
+        {
 
+        }
 
     }//
 }//

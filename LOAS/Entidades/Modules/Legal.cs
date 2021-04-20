@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Modules
 {
-    class Legal : Module
+    public class Legal : Module
     {
+        public Legal() : base() { }
+    public Legal(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

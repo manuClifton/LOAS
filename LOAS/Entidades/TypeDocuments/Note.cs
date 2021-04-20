@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Note : Document
+    public class Note : Document
     {
+        public Note() : base() { }
+        public Note(Employe emisor, Employe receptor) : base(emisor, receptor)
+        {
 
+        }
     }//
 }//

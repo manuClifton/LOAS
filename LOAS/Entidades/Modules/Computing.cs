@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Modules
 {
-    class Computing : Module
+    public class Computing : Module
     {
+        public Computing() : base() { }
+        public Computing(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

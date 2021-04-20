@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Resolution : Document
+    public class Resolution : Document
     {
+        public Resolution() : base() { }
+        public Resolution(Employe emisor, Employe receptor) : base(emisor,receptor)
+        {
 
+        }
 
     }//
 }//

@@ -14,7 +14,7 @@ using System.IO;
 
 namespace Front_end
 {
-    public partial class FrmPrincipal : Form
+    public partial class FrmSuperAdmin : Form
     {
         
         string Path = @"C:\Users\\MSISTEMAS\Desktop\Parcial_Laboratorio2\Parcial 1 Laboratorio  2\Clifton.Manuel\bin\Debug";
@@ -38,7 +38,7 @@ namespace Front_end
         /* logica para asignar legajo automarico */
         int legajo = 1000;
 
-        public FrmPrincipal()
+        public FrmSuperAdmin()
         {
             InitializeComponent();
             
@@ -80,7 +80,7 @@ namespace Front_end
             fh.Show();
         }
 
-
+        /*
         public void AbrirFormHijo2(object formHijo)
         {
             if (this.panelContenedor2.Controls.Count > 0)
@@ -94,7 +94,7 @@ namespace Front_end
             this.panelContenedor2.Controls.Add(fh);
             this.panelContenedor2.Tag = fh;
             fh.Show();
-        }
+        }    */
         #endregion
 
 
@@ -412,7 +412,7 @@ namespace Front_end
         //        ser.Serialize(Escribir, AlumnosSinAula);
         //    }
 
-            
+
 
         //    //aulas.Add(new Aula(EColor.Naranja, docentes[1], ETurno.Mañana));
         //    //aulas.Add(new Aula(EColor.Rojo, docentes[2], ETurno.Mañana));
@@ -1112,6 +1112,8 @@ namespace Front_end
             }
 
         }
+
+
 
         //private void btnHardcodear_Click(object sender, EventArgs e)
         //{

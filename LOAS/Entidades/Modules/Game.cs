@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Modules
 {
-    class Game : Module
+    public class Game : Module
     {
+        public Game() : base() { }
+        public Game(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

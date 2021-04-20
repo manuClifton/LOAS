@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Administration : Module
+    public class Administration : Module
     {
+        public Administration() : base() { }
+        public Administration(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

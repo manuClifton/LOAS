@@ -9,10 +9,13 @@ namespace Entidades
     public abstract class Module
     {
         List<Employe> listEmployes;
+        Stack<Document> stackDocuments;
         string name;
-        public Module(string name)
+        public Module() {}
+        protected Module(string name)
         {
             listEmployes = new List<Employe>();
+            stackDocuments = new Stack<Document>();
             this.Name = name;
         }
         public Employe this[int index]
@@ -47,7 +50,7 @@ namespace Entidades
             {
                 if (mod.listEmployes.Contains(emp))
                 {
-                    mod.listEmployes.Remove(emp);
+                    mod.listEmployes.Remove(emp); // Revisar si elimina el seleccionado
                     return true;
                 }
             }

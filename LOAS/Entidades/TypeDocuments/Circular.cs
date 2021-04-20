@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Circular : Document
+    public class Circular : Document
     {
+        public Circular() : base() { }
+        public Circular(Employe emisor, Employe receptor) : base(emisor, receptor)
+        {
 
+        }
 
     }//
 }//

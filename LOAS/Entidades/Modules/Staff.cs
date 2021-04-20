@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Modules
 {
-    class Staff : Module
+    public class Staff : Module
     {
+        public Staff() : base() { }
+        public Staff(string name) : base(name)
+        {
 
+        }
 
     }//
 }//

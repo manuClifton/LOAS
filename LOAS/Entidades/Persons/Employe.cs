@@ -43,9 +43,7 @@ namespace Entidades
         Esector sector;
         string cargo;
 
-        public Employe() : base()
-        {
-        }
+        public Employe() : base() {}
         public Employe(string nombre, string apellido, int dni, string direccion, EtypeEmploye type, int leg, int active, Esector sector,string cargo) : base(nombre, apellido, dni, direccion)
         {
             this.TypeEmploye = type;
