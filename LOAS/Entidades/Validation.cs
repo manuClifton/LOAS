@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entindades
+namespace Entidades
 {
-    public class Validaciones
+    public class Validation
     {
         public static bool ValidarDouble(string s, double max, double min)
         {

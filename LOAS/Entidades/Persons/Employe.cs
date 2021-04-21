@@ -39,12 +39,12 @@ namespace Entidades
     {
         EtypeEmploye type;
         int leg;
-        int active;
+        bool active;
         Esector sector;
         string cargo;
 
         public Employe() : base() {}
-        public Employe(string nombre, string apellido, int dni, string direccion, EtypeEmploye type, int leg, int active, Esector sector,string cargo) : base(nombre, apellido, dni, direccion)
+        public Employe(string nombre, string apellido, string sexo, int dni, string direccion, EtypeEmploye type, int leg, bool active, Esector sector,string cargo) : base(nombre, apellido, sexo, dni, direccion)
         {
             this.TypeEmploye = type;
             this.Leg = leg;
@@ -63,7 +63,7 @@ namespace Entidades
             get { return this.leg; }
             set { this.leg = value; }
         }
-        public int Active
+        public bool Active
         {
             get { return this.active; }
             set { this.active = value; }

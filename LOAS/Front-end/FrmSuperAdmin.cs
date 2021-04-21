@@ -23,7 +23,7 @@ namespace Front_end
         //Forms Hijos del Principal
 
         //Forms Modal
-
+        
         //Forms Altas
         
         //Frm Bajas
@@ -32,7 +32,7 @@ namespace Front_end
 
         /* Declaracion de Entidades */
 
-       // List<Docente> docentes;
+        // List<Docente> docentes;
         //List<Docente> docentesNoDisponibles;
 
         /* logica para asignar legajo automarico */
@@ -567,7 +567,7 @@ namespace Front_end
         // BOTONES DE ALTA
         #region
 
-        private void btnAltaAlumno_Click(object sender, EventArgs e)
+        private void btnAltaModulo_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
             sonido.Play();
@@ -592,7 +592,7 @@ namespace Front_end
             */
         }
 
-        private void btnAltaDocente_Click(object sender, EventArgs e)
+        private void btnAltaDocumento_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
             sonido.Play();
@@ -612,26 +612,33 @@ namespace Front_end
             */
         }
 
-
-        private void btnAltaAdministrativo_Click(object sender, EventArgs e)
-        {/*
+        private void btnAltaEmpleado_Click(object sender, EventArgs e)
+        {
+            /*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
             sonido.Play();
 
-            instAlta = new FrmAltaPersonal();
-            instAlta.SetNoDocente();
-            if (instAlta.ShowDialog() == DialogResult.OK)
+            instAltaAlumno = new FrmAltaAlumno();
+            instAltaAlumno.Legajo = legajo;
+            instAltaAlumno.ListResponsables = Responsables;
+            if (instAltaAlumno.ShowDialog() == DialogResult.OK)
             {
-                this.NoDocentes.Add(instAlta.UnNoDocente);
-                instNoDocente = new FrmNoDocente(NoDocentes);
-                this.AbrirFormHijo(instNoDocente);
+                this.alumnosSinAula.Add(instAltaAlumno.UnAlumno);
+                legajo = instAltaAlumno.Legajo;
+                // instAlumnos = new FrmAlumnos(alumnosSinAula, "Sin Aula");
+                instAlumnos = new FrmAlumnos();
+                instAlumnos.ListAlumnosSinAula = alumnosSinAula;
+                instAlumnos.CargarSinAula();
+                this.AbrirFormHijo2(instAlumnos);
             }
             else
             {
-                MessageBox.Show("Se cancelo el Alta de Administrativo");
+                MessageBox.Show("Se cancelo el Alta del Alumno");
             }
             */
+
         }
+
         private void btnAltaAula_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
@@ -669,7 +676,7 @@ namespace Front_end
 
 
         //BOTONES DE BAJA     -- ANDA PERO HAY QUE REVISAR
-        private void btnBajaAlumno_Click(object sender, EventArgs e)
+        private void btnBajaModulo_Click(object sender, EventArgs e)
         {/*
             instBaja = new FrmBaja();
             instBaja.ListAlumnosConAula = AlumnosConAula;
@@ -689,7 +696,7 @@ namespace Front_end
             }
             */
         }
-        private void btnBajaResponsable_Click(object sender, EventArgs e)
+        private void btnBajaDocumento_Click(object sender, EventArgs e)
         {/*
             instBaja = new FrmBaja();
             instBaja.ListResponsables = Responsables;
@@ -707,7 +714,7 @@ namespace Front_end
             }
             */
         }
-        private void btnBajaDocente_Click(object sender, EventArgs e)
+        private void btnBajaEmpleado_Click(object sender, EventArgs e)
         {/*
             instBaja = new FrmBaja();
             instBaja.ListDocentes = Docentes;
@@ -756,7 +763,7 @@ namespace Front_end
             */
         }
         //BOTONES DE MOFICICAR
-        private void btnEditarAlumno_Click(object sender, EventArgs e)
+        private void btnEditarModulo_Click(object sender, EventArgs e)
         {/*
             instEditarAlumno = new FrmEditarAlumno();
             instEditarAlumno.ListAlumnosConAula = AlumnosConAula;
@@ -776,7 +783,7 @@ namespace Front_end
             }
             */
         }
-        private void btnEditarResponsable_Click(object sender, EventArgs e)
+        private void btnEditarDocumento_Click(object sender, EventArgs e)
         {/*
             instEditarResponsable = new FrmEditarResponsable();
             instEditarResponsable.ListAlumnosConAula = AlumnosConAula;
@@ -795,7 +802,7 @@ namespace Front_end
             }
             */
         }
-        private void btnEditarDocente_Click(object sender, EventArgs e)
+        private void btnEditarEmpleado_Click(object sender, EventArgs e)
         {
             //TERMINAR EDITAR DOCENTE
         }
@@ -883,7 +890,7 @@ namespace Front_end
 
         // Botones
         #region BOTONES PRINCIPALES
-        private void btnAulas_Click(object sender, EventArgs e)
+        private void btnAdministracion_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
             sonido.Play();
@@ -898,7 +905,7 @@ namespace Front_end
             }*/
         }
 
-        private void btnNoDocente_Click(object sender, EventArgs e)
+        private void btnTesoreria_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
             sonido.Play();
@@ -914,7 +921,7 @@ namespace Front_end
         }
 
         
-        private void btnDocentes_Click(object sender, EventArgs e)
+        private void btnSistemas_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
             sonido.Play();
@@ -929,7 +936,7 @@ namespace Front_end
             }*/
         }
 
-        private void btnResponsables_Click(object sender, EventArgs e)
+        private void btnJuegos_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
             sonido.Play();
@@ -944,7 +951,7 @@ namespace Front_end
             }*/
         }
 
-        private void btnAlumnos_Click(object sender, EventArgs e)
+        private void btnPersonal_Click(object sender, EventArgs e)
         {/*
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
             sonido.Play();
@@ -1112,6 +1119,8 @@ namespace Front_end
             }
 
         }
+
+
 
 
 
