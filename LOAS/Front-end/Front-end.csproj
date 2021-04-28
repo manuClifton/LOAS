@@ -52,6 +52,12 @@
     <Compile Include="FrmAltaPersonal.designer.cs">
       <DependentUpon>FrmAltaPersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonal.designer.cs">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAltaPersonal.resx">
       <DependentUpon>FrmAltaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonal.resx">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

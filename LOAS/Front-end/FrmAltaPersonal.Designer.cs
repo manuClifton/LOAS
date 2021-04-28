@@ -1,4 +1,4 @@
-﻿namespace Clifton.Manuel
+﻿namespace Front_end
 {
     partial class FrmAltaPersonal
     {
@@ -124,8 +124,8 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.Location = new System.Drawing.Point(350, 360);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
@@ -138,8 +138,8 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancelar.Location = new System.Drawing.Point(51, 360);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
@@ -346,7 +346,7 @@
             this.Name = "FrmAltaPersonal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta de Docente";
-            this.Load += new System.EventHandler(this.FrmAlta_Load);
+            this.Load += new System.EventHandler(this.FrmAltaPersonal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBtnX)).EndInit();

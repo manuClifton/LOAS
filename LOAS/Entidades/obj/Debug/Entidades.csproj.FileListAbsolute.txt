@@ -12,3 +12,12 @@ C:\Users\manu_\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CoreCompil
 C:\Users\manu_\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 C:\Users\manu_\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.dll
 C:\Users\manu_\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.pdb
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\bin\Debug\Entidades.dll
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\bin\Debug\Entidades.pdb
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\bin\Debug\Excepciones.dll
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.dll
+C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.pdb

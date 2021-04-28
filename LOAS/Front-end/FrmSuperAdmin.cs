@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
+using Entidades;
+using Excepciones;
 
 namespace Front_end
 {
@@ -21,19 +23,20 @@ namespace Front_end
 
         /* Formularios*/
         //Forms Hijos del Principal
+        FrmPersonal instPersonal;
 
         //Forms Modal
-        
+        FrmAltaPersonal instAltaPersonal;
+
         //Forms Altas
-        
+
         //Frm Bajas
 
         //Frm Modificar
 
         /* Declaracion de Entidades */
 
-        // List<Docente> docentes;
-        //List<Docente> docentesNoDisponibles;
+        List<Employe> listEmploye;
 
         /* logica para asignar legajo automarico */
         int legajo = 1000;
@@ -41,20 +44,19 @@ namespace Front_end
         public FrmSuperAdmin()
         {
             InitializeComponent();
-            
+
             /* inicializar entidades */
-            //docentes = new List<Docente>();
-            //docentesNoDisponibles = new List<Docente>();
+            listEmploye = new List<Employe>();
 
            //harcodear();
         }
 
         /* Propiedades de entidades para acceder externamente */
-       // public List<Docente> Docentes
-       // {
-       //     get { return this.docentes; }
-        //    set { this.docentes = value; }
-       // }
+        public List<Employe> ListEmploye
+        {
+            get { return this.listEmploye; }
+            set { this.listEmploye = value; }
+        }
 
         //public List<Docente> DocentesNoDisponibles
         //{
@@ -614,29 +616,23 @@ namespace Front_end
 
         private void btnAltaEmpleado_Click(object sender, EventArgs e)
         {
-            /*
+            
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
             sonido.Play();
 
-            instAltaAlumno = new FrmAltaAlumno();
-            instAltaAlumno.Legajo = legajo;
-            instAltaAlumno.ListResponsables = Responsables;
-            if (instAltaAlumno.ShowDialog() == DialogResult.OK)
+            instAltaPersonal = new FrmAltaPersonal();
+            instAltaPersonal.SetPersonal();
+            instAltaPersonal.Legajo = legajo;
+            if (instAltaPersonal.ShowDialog() == DialogResult.OK)
             {
-                this.alumnosSinAula.Add(instAltaAlumno.UnAlumno);
-                legajo = instAltaAlumno.Legajo;
-                // instAlumnos = new FrmAlumnos(alumnosSinAula, "Sin Aula");
-                instAlumnos = new FrmAlumnos();
-                instAlumnos.ListAlumnosSinAula = alumnosSinAula;
-                instAlumnos.CargarSinAula();
-                this.AbrirFormHijo2(instAlumnos);
+                this.ListEmploye.Add(instAltaPersonal.OneEmploye);
+                instPersonal = new FrmPersonal(ListEmploye);             // AGREGAR EL FORMULARIOHIJO DE PERSONAL
+                this.AbrirFormHijo(instPersonal);
             }
             else
             {
-                MessageBox.Show("Se cancelo el Alta del Alumno");
+                MessageBox.Show("Se cancelo el Alta del Personal");
             }
-            */
-
         }
 
         private void btnAltaAula_Click(object sender, EventArgs e)
