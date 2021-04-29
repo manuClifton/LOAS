@@ -22,3 +22,9 @@ C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.csprojAss
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\manu_\Desktop\LOAS\LOAS\Excepciones\obj\Debug\Excepciones.pdb

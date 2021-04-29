@@ -46,3 +46,5 @@ C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Front-end\bin\Debug\Entidades.pdb
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Front-end\bin\Debug\Excepciones.pdb
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Front-end\obj\Debug\Front_end.FrmPersonal.resources
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Front-end\obj\Debug\Front-end.csproj.CopyComplete
+C:\Users\manu_\Desktop\LOAS\LOAS\Front-end\obj\Debug\Front_end.FrmAltaPersonal.resources
+C:\Users\manu_\Desktop\LOAS\LOAS\Front-end\obj\Debug\Front_end.FrmPersonal.resources

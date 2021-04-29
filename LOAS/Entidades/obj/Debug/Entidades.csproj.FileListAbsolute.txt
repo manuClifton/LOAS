@@ -21,3 +21,4 @@ C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CoreCo
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.dll
 C:\Users\MSISTEMAS\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\LOAS\LOAS\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

@@ -29,19 +29,19 @@ namespace Front_end
 
         private void CargarTabla()
         {
-                this.dataGridEmpleados.Rows.Clear();
-                int fila = 0;
-                foreach (Employe Aux in listEmploye)
-                {
-                    fila = dataGridEmpleados.Rows.Add();
-                    dataGridEmpleados.Rows[fila].Cells[0].Value = Aux.Nombre;
-                    dataGridEmpleados.Rows[fila].Cells[1].Value = Aux.Apellido;
-                    dataGridEmpleados.Rows[fila].Cells[2].Value = Aux.Dni;
-
-                    dataGridEmpleados.Rows[fila].Cells[3].Value = Aux.Sexo;
-
-                    // COMPLETAR EL RESTO DE DATOS
-                }
+            this.dataGridEmpleados.Rows.Clear();
+            int fila = 0;
+            foreach (Employe Aux in listEmploye)
+            {
+                fila = dataGridEmpleados.Rows.Add();
+                dataGridEmpleados.Rows[fila].Cells[0].Value = Aux.Nombre;
+                dataGridEmpleados.Rows[fila].Cells[1].Value = Aux.Apellido;
+                dataGridEmpleados.Rows[fila].Cells[2].Value = Aux.Dni;
+                dataGridEmpleados.Rows[fila].Cells[3].Value = Aux.Sexo;
+                dataGridEmpleados.Rows[fila].Cells[4].Value = Aux.Sector;
+                dataGridEmpleados.Rows[fila].Cells[5].Value = Aux.Cargo;
+                dataGridEmpleados.Rows[fila].Cells[6].Value = Aux.Active;
+            }
         }
 
         private void FrmPersonal_Load(object sender, EventArgs e)

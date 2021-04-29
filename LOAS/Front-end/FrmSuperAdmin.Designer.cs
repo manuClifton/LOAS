@@ -118,8 +118,9 @@
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(158, 586);
+            this.panelMenu.Size = new System.Drawing.Size(211, 721);
             this.panelMenu.TabIndex = 0;
             // 
             // panelSubMenuReporte
@@ -131,9 +132,10 @@
             this.panelSubMenuReporte.Controls.Add(this.btnReporte2);
             this.panelSubMenuReporte.Controls.Add(this.btnReporte1);
             this.panelSubMenuReporte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuReporte.Location = new System.Drawing.Point(0, 755);
+            this.panelSubMenuReporte.Location = new System.Drawing.Point(0, 762);
+            this.panelSubMenuReporte.Margin = new System.Windows.Forms.Padding(4);
             this.panelSubMenuReporte.Name = "panelSubMenuReporte";
-            this.panelSubMenuReporte.Size = new System.Drawing.Size(141, 244);
+            this.panelSubMenuReporte.Size = new System.Drawing.Size(190, 300);
             this.panelSubMenuReporte.TabIndex = 4;
             this.panelSubMenuReporte.Visible = false;
             // 
@@ -143,10 +145,11 @@
             this.btnReporte5.FlatAppearance.BorderSize = 0;
             this.btnReporte5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte5.ForeColor = System.Drawing.Color.LightGray;
-            this.btnReporte5.Location = new System.Drawing.Point(0, 160);
+            this.btnReporte5.Location = new System.Drawing.Point(0, 196);
+            this.btnReporte5.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte5.Name = "btnReporte5";
-            this.btnReporte5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnReporte5.Size = new System.Drawing.Size(141, 40);
+            this.btnReporte5.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.btnReporte5.Size = new System.Drawing.Size(190, 49);
             this.btnReporte5.TabIndex = 5;
             this.btnReporte5.Text = "Reporte 5";
             this.btnReporte5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,10 +162,11 @@
             this.btnReporte4.FlatAppearance.BorderSize = 0;
             this.btnReporte4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte4.ForeColor = System.Drawing.Color.LightGray;
-            this.btnReporte4.Location = new System.Drawing.Point(0, 120);
+            this.btnReporte4.Location = new System.Drawing.Point(0, 147);
+            this.btnReporte4.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte4.Name = "btnReporte4";
-            this.btnReporte4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnReporte4.Size = new System.Drawing.Size(141, 40);
+            this.btnReporte4.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.btnReporte4.Size = new System.Drawing.Size(190, 49);
             this.btnReporte4.TabIndex = 4;
             this.btnReporte4.Text = "Reporte 4";
             this.btnReporte4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,10 +179,11 @@
             this.btnReporte3.FlatAppearance.BorderSize = 0;
             this.btnReporte3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte3.ForeColor = System.Drawing.Color.LightGray;
-            this.btnReporte3.Location = new System.Drawing.Point(0, 80);
+            this.btnReporte3.Location = new System.Drawing.Point(0, 98);
+            this.btnReporte3.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte3.Name = "btnReporte3";
-            this.btnReporte3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnReporte3.Size = new System.Drawing.Size(141, 40);
+            this.btnReporte3.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.btnReporte3.Size = new System.Drawing.Size(190, 49);
             this.btnReporte3.TabIndex = 2;
             this.btnReporte3.Text = "Reporte 3";
             this.btnReporte3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -191,10 +196,11 @@
             this.btnReporte2.FlatAppearance.BorderSize = 0;
             this.btnReporte2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte2.ForeColor = System.Drawing.Color.LightGray;
-            this.btnReporte2.Location = new System.Drawing.Point(0, 40);
+            this.btnReporte2.Location = new System.Drawing.Point(0, 49);
+            this.btnReporte2.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte2.Name = "btnReporte2";
-            this.btnReporte2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnReporte2.Size = new System.Drawing.Size(141, 40);
+            this.btnReporte2.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.btnReporte2.Size = new System.Drawing.Size(190, 49);
             this.btnReporte2.TabIndex = 1;
             this.btnReporte2.Text = "Reporte 2";
             this.btnReporte2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -208,9 +214,10 @@
             this.btnReporte1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte1.ForeColor = System.Drawing.Color.LightGray;
             this.btnReporte1.Location = new System.Drawing.Point(0, 0);
+            this.btnReporte1.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte1.Name = "btnReporte1";
-            this.btnReporte1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnReporte1.Size = new System.Drawing.Size(141, 40);
+            this.btnReporte1.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.btnReporte1.Size = new System.Drawing.Size(190, 49);
             this.btnReporte1.TabIndex = 0;
             this.btnReporte1.Text = "Reporte 1";
             this.btnReporte1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,10 +230,11 @@
             this.btnReporte.FlatAppearance.BorderSize = 0;
             this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporte.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnReporte.Location = new System.Drawing.Point(0, 709);
+            this.btnReporte.Location = new System.Drawing.Point(0, 705);
+            this.btnReporte.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnReporte.Size = new System.Drawing.Size(141, 46);
+            this.btnReporte.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnReporte.Size = new System.Drawing.Size(190, 57);
             this.btnReporte.TabIndex = 3;
             this.btnReporte.Text = "Reportes";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -243,9 +251,10 @@
             this.panelSubMenuArchivo.Controls.Add(this.panelSubAltas);
             this.panelSubMenuArchivo.Controls.Add(this.btnAlta);
             this.panelSubMenuArchivo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuArchivo.Location = new System.Drawing.Point(0, 109);
+            this.panelSubMenuArchivo.Location = new System.Drawing.Point(0, 134);
+            this.panelSubMenuArchivo.Margin = new System.Windows.Forms.Padding(4);
             this.panelSubMenuArchivo.Name = "panelSubMenuArchivo";
-            this.panelSubMenuArchivo.Size = new System.Drawing.Size(141, 600);
+            this.panelSubMenuArchivo.Size = new System.Drawing.Size(190, 571);
             this.panelSubMenuArchivo.TabIndex = 2;
             this.panelSubMenuArchivo.Visible = false;
             // 
@@ -255,9 +264,10 @@
             this.panelSubModificar.Controls.Add(this.btnEditarDocumento);
             this.panelSubModificar.Controls.Add(this.btnEditarModulo);
             this.panelSubModificar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubModificar.Location = new System.Drawing.Point(0, 347);
+            this.panelSubModificar.Location = new System.Drawing.Point(0, 426);
+            this.panelSubModificar.Margin = new System.Windows.Forms.Padding(4);
             this.panelSubModificar.Name = "panelSubModificar";
-            this.panelSubModificar.Size = new System.Drawing.Size(141, 166);
+            this.panelSubModificar.Size = new System.Drawing.Size(190, 124);
             this.panelSubModificar.TabIndex = 6;
             this.panelSubModificar.Visible = false;
             // 
@@ -268,10 +278,11 @@
             this.btnEditarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarEmpleado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarEmpleado.ForeColor = System.Drawing.Color.LightGray;
-            this.btnEditarEmpleado.Location = new System.Drawing.Point(0, 64);
+            this.btnEditarEmpleado.Location = new System.Drawing.Point(0, 78);
+            this.btnEditarEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditarEmpleado.Name = "btnEditarEmpleado";
-            this.btnEditarEmpleado.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEditarEmpleado.Size = new System.Drawing.Size(141, 32);
+            this.btnEditarEmpleado.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnEditarEmpleado.Size = new System.Drawing.Size(190, 39);
             this.btnEditarEmpleado.TabIndex = 3;
             this.btnEditarEmpleado.Text = "Empleado";
             this.btnEditarEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -285,10 +296,11 @@
             this.btnEditarDocumento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarDocumento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarDocumento.ForeColor = System.Drawing.Color.LightGray;
-            this.btnEditarDocumento.Location = new System.Drawing.Point(0, 32);
+            this.btnEditarDocumento.Location = new System.Drawing.Point(0, 39);
+            this.btnEditarDocumento.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditarDocumento.Name = "btnEditarDocumento";
-            this.btnEditarDocumento.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEditarDocumento.Size = new System.Drawing.Size(141, 32);
+            this.btnEditarDocumento.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnEditarDocumento.Size = new System.Drawing.Size(190, 39);
             this.btnEditarDocumento.TabIndex = 2;
             this.btnEditarDocumento.Text = "Documento";
             this.btnEditarDocumento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -303,9 +315,10 @@
             this.btnEditarModulo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarModulo.ForeColor = System.Drawing.Color.LightGray;
             this.btnEditarModulo.Location = new System.Drawing.Point(0, 0);
+            this.btnEditarModulo.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditarModulo.Name = "btnEditarModulo";
-            this.btnEditarModulo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEditarModulo.Size = new System.Drawing.Size(141, 32);
+            this.btnEditarModulo.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnEditarModulo.Size = new System.Drawing.Size(190, 39);
             this.btnEditarModulo.TabIndex = 1;
             this.btnEditarModulo.Text = "Modulo";
             this.btnEditarModulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -319,10 +332,11 @@
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnModificar.Location = new System.Drawing.Point(0, 307);
+            this.btnModificar.Location = new System.Drawing.Point(0, 377);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnModificar.Size = new System.Drawing.Size(141, 40);
+            this.btnModificar.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnModificar.Size = new System.Drawing.Size(190, 49);
             this.btnModificar.TabIndex = 5;
             this.btnModificar.Text = "Modificacion";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -335,9 +349,10 @@
             this.panelSubBajas.Controls.Add(this.btnBajaDocumento);
             this.panelSubBajas.Controls.Add(this.btnBajaModulo);
             this.panelSubBajas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubBajas.Location = new System.Drawing.Point(0, 190);
+            this.panelSubBajas.Location = new System.Drawing.Point(0, 233);
+            this.panelSubBajas.Margin = new System.Windows.Forms.Padding(4);
             this.panelSubBajas.Name = "panelSubBajas";
-            this.panelSubBajas.Size = new System.Drawing.Size(141, 117);
+            this.panelSubBajas.Size = new System.Drawing.Size(190, 144);
             this.panelSubBajas.TabIndex = 4;
             this.panelSubBajas.Visible = false;
             // 
@@ -348,10 +363,11 @@
             this.btnBajaEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBajaEmpleado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaEmpleado.ForeColor = System.Drawing.Color.LightGray;
-            this.btnBajaEmpleado.Location = new System.Drawing.Point(0, 64);
+            this.btnBajaEmpleado.Location = new System.Drawing.Point(0, 78);
+            this.btnBajaEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.btnBajaEmpleado.Name = "btnBajaEmpleado";
-            this.btnBajaEmpleado.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnBajaEmpleado.Size = new System.Drawing.Size(141, 32);
+            this.btnBajaEmpleado.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnBajaEmpleado.Size = new System.Drawing.Size(190, 39);
             this.btnBajaEmpleado.TabIndex = 3;
             this.btnBajaEmpleado.Text = "Empleado";
             this.btnBajaEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -365,10 +381,11 @@
             this.btnBajaDocumento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBajaDocumento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaDocumento.ForeColor = System.Drawing.Color.LightGray;
-            this.btnBajaDocumento.Location = new System.Drawing.Point(0, 32);
+            this.btnBajaDocumento.Location = new System.Drawing.Point(0, 39);
+            this.btnBajaDocumento.Margin = new System.Windows.Forms.Padding(4);
             this.btnBajaDocumento.Name = "btnBajaDocumento";
-            this.btnBajaDocumento.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnBajaDocumento.Size = new System.Drawing.Size(141, 32);
+            this.btnBajaDocumento.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnBajaDocumento.Size = new System.Drawing.Size(190, 39);
             this.btnBajaDocumento.TabIndex = 2;
             this.btnBajaDocumento.Text = "Documento";
             this.btnBajaDocumento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -383,9 +400,10 @@
             this.btnBajaModulo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajaModulo.ForeColor = System.Drawing.Color.LightGray;
             this.btnBajaModulo.Location = new System.Drawing.Point(0, 0);
+            this.btnBajaModulo.Margin = new System.Windows.Forms.Padding(4);
             this.btnBajaModulo.Name = "btnBajaModulo";
-            this.btnBajaModulo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnBajaModulo.Size = new System.Drawing.Size(141, 32);
+            this.btnBajaModulo.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnBajaModulo.Size = new System.Drawing.Size(190, 39);
             this.btnBajaModulo.TabIndex = 1;
             this.btnBajaModulo.Text = "Modulo";
             this.btnBajaModulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -399,10 +417,11 @@
             this.btnBajas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBajas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBajas.ForeColor = System.Drawing.Color.LightGray;
-            this.btnBajas.Location = new System.Drawing.Point(0, 150);
+            this.btnBajas.Location = new System.Drawing.Point(0, 184);
+            this.btnBajas.Margin = new System.Windows.Forms.Padding(4);
             this.btnBajas.Name = "btnBajas";
-            this.btnBajas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnBajas.Size = new System.Drawing.Size(141, 40);
+            this.btnBajas.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnBajas.Size = new System.Drawing.Size(190, 49);
             this.btnBajas.TabIndex = 3;
             this.btnBajas.Text = "Bajas";
             this.btnBajas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -415,9 +434,10 @@
             this.panelSubAltas.Controls.Add(this.btnAltaDocumento);
             this.panelSubAltas.Controls.Add(this.btnAltaModulo);
             this.panelSubAltas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubAltas.Location = new System.Drawing.Point(0, 40);
+            this.panelSubAltas.Location = new System.Drawing.Point(0, 49);
+            this.panelSubAltas.Margin = new System.Windows.Forms.Padding(4);
             this.panelSubAltas.Name = "panelSubAltas";
-            this.panelSubAltas.Size = new System.Drawing.Size(141, 110);
+            this.panelSubAltas.Size = new System.Drawing.Size(190, 135);
             this.panelSubAltas.TabIndex = 2;
             this.panelSubAltas.Visible = false;
             // 
@@ -428,10 +448,11 @@
             this.btnAltaEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAltaEmpleado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAltaEmpleado.ForeColor = System.Drawing.Color.LightGray;
-            this.btnAltaEmpleado.Location = new System.Drawing.Point(0, 64);
+            this.btnAltaEmpleado.Location = new System.Drawing.Point(0, 78);
+            this.btnAltaEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.btnAltaEmpleado.Name = "btnAltaEmpleado";
-            this.btnAltaEmpleado.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnAltaEmpleado.Size = new System.Drawing.Size(141, 32);
+            this.btnAltaEmpleado.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnAltaEmpleado.Size = new System.Drawing.Size(190, 39);
             this.btnAltaEmpleado.TabIndex = 3;
             this.btnAltaEmpleado.Text = "Empleado";
             this.btnAltaEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -445,10 +466,11 @@
             this.btnAltaDocumento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAltaDocumento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAltaDocumento.ForeColor = System.Drawing.Color.LightGray;
-            this.btnAltaDocumento.Location = new System.Drawing.Point(0, 32);
+            this.btnAltaDocumento.Location = new System.Drawing.Point(0, 39);
+            this.btnAltaDocumento.Margin = new System.Windows.Forms.Padding(4);
             this.btnAltaDocumento.Name = "btnAltaDocumento";
-            this.btnAltaDocumento.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnAltaDocumento.Size = new System.Drawing.Size(141, 32);
+            this.btnAltaDocumento.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnAltaDocumento.Size = new System.Drawing.Size(190, 39);
             this.btnAltaDocumento.TabIndex = 2;
             this.btnAltaDocumento.Text = "Documento";
             this.btnAltaDocumento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -463,9 +485,10 @@
             this.btnAltaModulo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAltaModulo.ForeColor = System.Drawing.Color.LightGray;
             this.btnAltaModulo.Location = new System.Drawing.Point(0, 0);
+            this.btnAltaModulo.Margin = new System.Windows.Forms.Padding(4);
             this.btnAltaModulo.Name = "btnAltaModulo";
-            this.btnAltaModulo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnAltaModulo.Size = new System.Drawing.Size(141, 32);
+            this.btnAltaModulo.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btnAltaModulo.Size = new System.Drawing.Size(190, 39);
             this.btnAltaModulo.TabIndex = 1;
             this.btnAltaModulo.Text = "Modulo";
             this.btnAltaModulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -480,9 +503,10 @@
             this.btnAlta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlta.ForeColor = System.Drawing.Color.LightGray;
             this.btnAlta.Location = new System.Drawing.Point(0, 0);
+            this.btnAlta.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlta.Name = "btnAlta";
-            this.btnAlta.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAlta.Size = new System.Drawing.Size(141, 40);
+            this.btnAlta.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnAlta.Size = new System.Drawing.Size(190, 49);
             this.btnAlta.TabIndex = 1;
             this.btnAlta.Text = "Altas";
             this.btnAlta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -496,10 +520,11 @@
             this.btnArchivo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(7)))), ((int)(((byte)(25)))));
             this.btnArchivo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnArchivo.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnArchivo.Location = new System.Drawing.Point(0, 69);
+            this.btnArchivo.Location = new System.Drawing.Point(0, 85);
+            this.btnArchivo.Margin = new System.Windows.Forms.Padding(4);
             this.btnArchivo.Name = "btnArchivo";
-            this.btnArchivo.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnArchivo.Size = new System.Drawing.Size(141, 40);
+            this.btnArchivo.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnArchivo.Size = new System.Drawing.Size(190, 49);
             this.btnArchivo.TabIndex = 1;
             this.btnArchivo.Text = "Archivo";
             this.btnArchivo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -512,16 +537,18 @@
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(141, 69);
+            this.panelLogo.Size = new System.Drawing.Size(190, 85);
             this.panelLogo.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(195, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -536,9 +563,10 @@
             this.panelUsuario.Controls.Add(this.panelFotoPersona);
             this.panelUsuario.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelUsuario.Location = new System.Drawing.Point(158, 500);
+            this.panelUsuario.Location = new System.Drawing.Point(211, 615);
+            this.panelUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(1156, 86);
+            this.panelUsuario.Size = new System.Drawing.Size(1541, 106);
             this.panelUsuario.TabIndex = 1;
             // 
             // Lb_Puesto
@@ -546,9 +574,10 @@
             this.Lb_Puesto.AutoSize = true;
             this.Lb_Puesto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Puesto.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_Puesto.Location = new System.Drawing.Point(99, 64);
+            this.Lb_Puesto.Location = new System.Drawing.Point(132, 79);
+            this.Lb_Puesto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lb_Puesto.Name = "Lb_Puesto";
-            this.Lb_Puesto.Size = new System.Drawing.Size(117, 17);
+            this.Lb_Puesto.Size = new System.Drawing.Size(151, 21);
             this.Lb_Puesto.TabIndex = 4;
             this.Lb_Puesto.Text = "Puesto: Directivo";
             // 
@@ -557,9 +586,10 @@
             this.Lb_Nombre.AutoSize = true;
             this.Lb_Nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Nombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_Nombre.Location = new System.Drawing.Point(99, 35);
+            this.Lb_Nombre.Location = new System.Drawing.Point(132, 43);
+            this.Lb_Nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lb_Nombre.Name = "Lb_Nombre";
-            this.Lb_Nombre.Size = new System.Drawing.Size(116, 17);
+            this.Lb_Nombre.Size = new System.Drawing.Size(150, 21);
             this.Lb_Nombre.TabIndex = 3;
             this.Lb_Nombre.Text = "Nombre: Manuel";
             // 
@@ -568,9 +598,10 @@
             this.Lb_legajo.AutoSize = true;
             this.Lb_legajo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_legajo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_legajo.Location = new System.Drawing.Point(99, 5);
+            this.Lb_legajo.Location = new System.Drawing.Point(132, 6);
+            this.Lb_legajo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lb_legajo.Name = "Lb_legajo";
-            this.Lb_legajo.Size = new System.Drawing.Size(81, 17);
+            this.Lb_legajo.Size = new System.Drawing.Size(103, 21);
             this.Lb_legajo.TabIndex = 2;
             this.Lb_legajo.Text = "Legajo: 256";
             // 
@@ -579,18 +610,20 @@
             this.panelFecha_Hora.Controls.Add(this.Lb_Fecha);
             this.panelFecha_Hora.Controls.Add(this.Lb_Timer);
             this.panelFecha_Hora.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelFecha_Hora.Location = new System.Drawing.Point(587, 0);
+            this.panelFecha_Hora.Location = new System.Drawing.Point(782, 0);
+            this.panelFecha_Hora.Margin = new System.Windows.Forms.Padding(4);
             this.panelFecha_Hora.Name = "panelFecha_Hora";
-            this.panelFecha_Hora.Size = new System.Drawing.Size(569, 86);
+            this.panelFecha_Hora.Size = new System.Drawing.Size(759, 106);
             this.panelFecha_Hora.TabIndex = 1;
             // 
             // Lb_Fecha
             // 
             this.Lb_Fecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Fecha.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_Fecha.Location = new System.Drawing.Point(125, 51);
+            this.Lb_Fecha.Location = new System.Drawing.Point(167, 63);
+            this.Lb_Fecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lb_Fecha.Name = "Lb_Fecha";
-            this.Lb_Fecha.Size = new System.Drawing.Size(415, 26);
+            this.Lb_Fecha.Size = new System.Drawing.Size(553, 32);
             this.Lb_Fecha.TabIndex = 1;
             this.Lb_Fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -601,9 +634,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Lb_Timer.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_Timer.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_Timer.Location = new System.Drawing.Point(107, 0);
+            this.Lb_Timer.Location = new System.Drawing.Point(143, 0);
+            this.Lb_Timer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lb_Timer.Name = "Lb_Timer";
-            this.Lb_Timer.Size = new System.Drawing.Size(451, 52);
+            this.Lb_Timer.Size = new System.Drawing.Size(601, 64);
             this.Lb_Timer.TabIndex = 0;
             this.Lb_Timer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -612,8 +646,9 @@
             this.panelFotoPersona.Controls.Add(this.pictureBoxUsuario);
             this.panelFotoPersona.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelFotoPersona.Location = new System.Drawing.Point(0, 0);
+            this.panelFotoPersona.Margin = new System.Windows.Forms.Padding(4);
             this.panelFotoPersona.Name = "panelFotoPersona";
-            this.panelFotoPersona.Size = new System.Drawing.Size(93, 86);
+            this.panelFotoPersona.Size = new System.Drawing.Size(124, 106);
             this.panelFotoPersona.TabIndex = 0;
             // 
             // pictureBoxUsuario
@@ -621,8 +656,9 @@
             this.pictureBoxUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBoxUsuario.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUsuario.Image")));
             this.pictureBoxUsuario.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxUsuario.Name = "pictureBoxUsuario";
-            this.pictureBoxUsuario.Size = new System.Drawing.Size(93, 86);
+            this.pictureBoxUsuario.Size = new System.Drawing.Size(124, 106);
             this.pictureBoxUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxUsuario.TabIndex = 0;
             this.pictureBoxUsuario.TabStop = false;
@@ -631,9 +667,10 @@
             // 
             this.panelDocentes.Controls.Add(this.pictureBox2);
             this.panelDocentes.Controls.Add(this.btnSistemas);
-            this.panelDocentes.Location = new System.Drawing.Point(164, 0);
+            this.panelDocentes.Location = new System.Drawing.Point(219, 0);
+            this.panelDocentes.Margin = new System.Windows.Forms.Padding(4);
             this.panelDocentes.Name = "panelDocentes";
-            this.panelDocentes.Size = new System.Drawing.Size(100, 149);
+            this.panelDocentes.Size = new System.Drawing.Size(133, 183);
             this.panelDocentes.TabIndex = 2;
             // 
             // pictureBox2
@@ -641,9 +678,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 15);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 106);
+            this.pictureBox2.Size = new System.Drawing.Size(133, 130);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -655,9 +693,10 @@
             this.btnSistemas.FlatAppearance.BorderSize = 0;
             this.btnSistemas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSistemas.ForeColor = System.Drawing.Color.Gray;
-            this.btnSistemas.Location = new System.Drawing.Point(0, 119);
+            this.btnSistemas.Location = new System.Drawing.Point(0, 146);
+            this.btnSistemas.Margin = new System.Windows.Forms.Padding(4);
             this.btnSistemas.Name = "btnSistemas";
-            this.btnSistemas.Size = new System.Drawing.Size(100, 30);
+            this.btnSistemas.Size = new System.Drawing.Size(133, 37);
             this.btnSistemas.TabIndex = 0;
             this.btnSistemas.Text = "Sistemas";
             this.btnSistemas.UseVisualStyleBackColor = true;
@@ -668,26 +707,29 @@
             this.panelContenedor1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panelContenedor1.AutoSize = true;
-            this.panelContenedor1.Location = new System.Drawing.Point(164, 178);
+            this.panelContenedor1.Location = new System.Drawing.Point(219, 219);
+            this.panelContenedor1.Margin = new System.Windows.Forms.Padding(4);
             this.panelContenedor1.Name = "panelContenedor1";
-            this.panelContenedor1.Size = new System.Drawing.Size(1138, 316);
+            this.panelContenedor1.Size = new System.Drawing.Size(1517, 389);
             this.panelContenedor1.TabIndex = 5;
             // 
             // panelNoDocente
             // 
             this.panelNoDocente.Controls.Add(this.pictureBox3);
             this.panelNoDocente.Controls.Add(this.btnTesoreria);
-            this.panelNoDocente.Location = new System.Drawing.Point(286, 0);
+            this.panelNoDocente.Location = new System.Drawing.Point(381, 0);
+            this.panelNoDocente.Margin = new System.Windows.Forms.Padding(4);
             this.panelNoDocente.Name = "panelNoDocente";
-            this.panelNoDocente.Size = new System.Drawing.Size(106, 149);
+            this.panelNoDocente.Size = new System.Drawing.Size(141, 183);
             this.panelNoDocente.TabIndex = 7;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 14);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 17);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(106, 106);
+            this.pictureBox3.Size = new System.Drawing.Size(141, 130);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
@@ -699,9 +741,10 @@
             this.btnTesoreria.FlatAppearance.BorderSize = 0;
             this.btnTesoreria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTesoreria.ForeColor = System.Drawing.Color.Gray;
-            this.btnTesoreria.Location = new System.Drawing.Point(0, 119);
+            this.btnTesoreria.Location = new System.Drawing.Point(0, 146);
+            this.btnTesoreria.Margin = new System.Windows.Forms.Padding(4);
             this.btnTesoreria.Name = "btnTesoreria";
-            this.btnTesoreria.Size = new System.Drawing.Size(106, 30);
+            this.btnTesoreria.Size = new System.Drawing.Size(141, 37);
             this.btnTesoreria.TabIndex = 0;
             this.btnTesoreria.Text = "Tesoreria";
             this.btnTesoreria.UseVisualStyleBackColor = true;
@@ -711,17 +754,19 @@
             // 
             this.panelAulas.Controls.Add(this.pictureBox4);
             this.panelAulas.Controls.Add(this.btnAdministracion);
-            this.panelAulas.Location = new System.Drawing.Point(412, 0);
+            this.panelAulas.Location = new System.Drawing.Point(549, 0);
+            this.panelAulas.Margin = new System.Windows.Forms.Padding(4);
             this.panelAulas.Name = "panelAulas";
-            this.panelAulas.Size = new System.Drawing.Size(106, 149);
+            this.panelAulas.Size = new System.Drawing.Size(141, 183);
             this.panelAulas.TabIndex = 3;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 14);
+            this.pictureBox4.Location = new System.Drawing.Point(0, 17);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(106, 106);
+            this.pictureBox4.Size = new System.Drawing.Size(141, 130);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
@@ -733,9 +778,10 @@
             this.btnAdministracion.FlatAppearance.BorderSize = 0;
             this.btnAdministracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdministracion.ForeColor = System.Drawing.Color.Gray;
-            this.btnAdministracion.Location = new System.Drawing.Point(0, 119);
+            this.btnAdministracion.Location = new System.Drawing.Point(0, 146);
+            this.btnAdministracion.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdministracion.Name = "btnAdministracion";
-            this.btnAdministracion.Size = new System.Drawing.Size(106, 30);
+            this.btnAdministracion.Size = new System.Drawing.Size(141, 37);
             this.btnAdministracion.TabIndex = 0;
             this.btnAdministracion.Text = "Administración";
             this.btnAdministracion.UseVisualStyleBackColor = true;
@@ -745,17 +791,19 @@
             // 
             this.panelAlumnos.Controls.Add(this.pictureBox5);
             this.panelAlumnos.Controls.Add(this.btnPersonal);
-            this.panelAlumnos.Location = new System.Drawing.Point(551, 0);
+            this.panelAlumnos.Location = new System.Drawing.Point(735, 0);
+            this.panelAlumnos.Margin = new System.Windows.Forms.Padding(4);
             this.panelAlumnos.Name = "panelAlumnos";
-            this.panelAlumnos.Size = new System.Drawing.Size(107, 149);
+            this.panelAlumnos.Size = new System.Drawing.Size(143, 183);
             this.panelAlumnos.TabIndex = 3;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 12);
+            this.pictureBox5.Location = new System.Drawing.Point(0, 15);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(107, 108);
+            this.pictureBox5.Size = new System.Drawing.Size(143, 133);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
@@ -767,9 +815,10 @@
             this.btnPersonal.FlatAppearance.BorderSize = 0;
             this.btnPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPersonal.ForeColor = System.Drawing.Color.Gray;
-            this.btnPersonal.Location = new System.Drawing.Point(0, 119);
+            this.btnPersonal.Location = new System.Drawing.Point(0, 146);
+            this.btnPersonal.Margin = new System.Windows.Forms.Padding(4);
             this.btnPersonal.Name = "btnPersonal";
-            this.btnPersonal.Size = new System.Drawing.Size(107, 30);
+            this.btnPersonal.Size = new System.Drawing.Size(143, 37);
             this.btnPersonal.TabIndex = 0;
             this.btnPersonal.Text = "Personal";
             this.btnPersonal.UseVisualStyleBackColor = true;
@@ -779,17 +828,19 @@
             // 
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.btnJuegos);
-            this.panel1.Location = new System.Drawing.Point(690, 0);
+            this.panel1.Location = new System.Drawing.Point(920, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(107, 149);
+            this.panel1.Size = new System.Drawing.Size(143, 183);
             this.panel1.TabIndex = 8;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 14);
+            this.pictureBox6.Location = new System.Drawing.Point(0, 17);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(107, 106);
+            this.pictureBox6.Size = new System.Drawing.Size(143, 130);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
@@ -801,9 +852,10 @@
             this.btnJuegos.FlatAppearance.BorderSize = 0;
             this.btnJuegos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJuegos.ForeColor = System.Drawing.Color.Gray;
-            this.btnJuegos.Location = new System.Drawing.Point(0, 119);
+            this.btnJuegos.Location = new System.Drawing.Point(0, 146);
+            this.btnJuegos.Margin = new System.Windows.Forms.Padding(4);
             this.btnJuegos.Name = "btnJuegos";
-            this.btnJuegos.Size = new System.Drawing.Size(107, 30);
+            this.btnJuegos.Size = new System.Drawing.Size(143, 37);
             this.btnJuegos.TabIndex = 0;
             this.btnJuegos.Text = "Juegos";
             this.btnJuegos.UseVisualStyleBackColor = true;
@@ -815,11 +867,11 @@
             // 
             // FrmSuperAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(1314, 586);
+            this.ClientSize = new System.Drawing.Size(1752, 721);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelAlumnos);
             this.Controls.Add(this.panelAulas);
@@ -830,7 +882,8 @@
             this.Controls.Add(this.panelMenu);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MinimumSize = new System.Drawing.Size(1027, 597);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(1363, 724);
             this.Name = "FrmSuperAdmin";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
