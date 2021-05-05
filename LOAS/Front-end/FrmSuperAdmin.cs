@@ -23,7 +23,7 @@ namespace Front_end
 
         /* Formularios*/
         //Forms Hijos del Principal
-        FrmPersonal instPersonal;
+        FrmPersonal instListPersonal;
 
         //Forms Modal
         FrmAltaPersonal instAltaPersonal;
@@ -331,8 +331,8 @@ namespace Front_end
             if (instAltaPersonal.ShowDialog() == DialogResult.OK)
             {
                 this.ListEmploye.Add(instAltaPersonal.OneEmploye);
-                instPersonal = new FrmPersonal(ListEmploye);             // AGREGAR EL FORMULARIOHIJO DE PERSONAL
-                this.AbrirFormHijo(instPersonal);
+                instListPersonal = new FrmPersonal(ListEmploye);             // AGREGAR EL FORMULARIOHIJO DE PERSONAL
+                this.AbrirFormHijo(instListPersonal);
             }
             else
             {
@@ -760,7 +760,8 @@ namespace Front_end
             AbrirFormHijo(instDocentes);
             AbrirFormHijo2(instAlumnos);
             */
-            AbrirFormHijo(instPersonal);
+            instListPersonal = new FrmPersonal(ListEmploye);
+            AbrirFormHijo(instListPersonal);
         }
 
 

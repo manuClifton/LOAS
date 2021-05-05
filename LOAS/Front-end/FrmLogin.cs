@@ -62,6 +62,9 @@ namespace Front_end
         {
             if (!(string.IsNullOrEmpty(txtUser.Text)) && !(string.IsNullOrEmpty(txtPass.Text)))
             {
+
+                // ACA AGREGO LAS CONDICIONES DE LA CONSULTA SQL POR EL USUARIO
+                // QUE TIPO DE USUARIO Y SECTOR. DE ESTO DEPENDE QUE FRM VA A ABRIR
                 if (txtUser.Text == "Manuel" && txtPass.Text == "123456")
                 {
 
