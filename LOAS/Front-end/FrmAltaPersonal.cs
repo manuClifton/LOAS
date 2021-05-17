@@ -62,7 +62,7 @@ namespace Front_end
                        {
                            if (Validation.ValidarEntero(txtDni.Text, 999999999, 1000000))
                            {
-
+                            //SOLUCIONAR NO COINCIDEN LOS DATOS DE LOS ENUMERADOS
                                 oneEmploye = new Employe(txtNombre.Text, txtApellido.Text, cmbSexo.Text, int.Parse(txtDni.Text), txtDireccion.Text, (EtypeEmploye)cmbTipo.SelectedItem, legajoPersonal, true, (Esector)cmbSector.SelectedItem, txtCargo.Text);
                                 if (!(oneEmploye is null))
                                 {
@@ -106,6 +106,8 @@ namespace Front_end
             if (Validation.ValidarString(txtNombre.Text) &&
                     Validation.ValidarString(txtApellido.Text) &&
                     Validation.ValidarString(txtDni.Text) &&
+                     Validation.ValidarString(txtDireccion.Text) &&
+                        Validation.ValidarString(txtCargo.Text) &&
                      cmbSexo.SelectedIndex != -1 &&
                      !(cmbSector.SelectedIndex == -1) &&
                      !(cmbTipo.SelectedIndex == -1)

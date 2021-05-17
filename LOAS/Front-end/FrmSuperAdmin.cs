@@ -300,7 +300,21 @@ namespace Front_end
         }
 
         private void btnAltaDocumento_Click(object sender, EventArgs e)
-        {/*
+        {
+            // AGREGAR FORMULARIO HIJO EN FORMULARIO PRINCIPAL CON LA SELECCION DEL TIPO DE DOCUMENTO
+            /*
+            SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\chimes.wav");
+            sonido.Play();
+
+            if (docentes.Count == 0)
+            {
+                MessageBox.Show("Primero debe dar de alta un Docente.");
+            }
+            else
+            {
+                AbrirFormHijo(instDocentes);             // ACA CREAR FORMULARIO HUIJO DE SELECCION DE DOCUMENTO
+                                                         // TENER OPCION DE CERRARLO. DEBE ABRIR OTRO FORM NUEVO PARA CREAR DOCUMENTO
+            }*/
             SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
             sonido.Play();
 
@@ -316,7 +330,8 @@ namespace Front_end
             {
                 MessageBox.Show("Se cancelo el Alta del Docente");
             }
-            */
+
+            /*  */
         }
 
         private void btnAltaEmpleado_Click(object sender, EventArgs e)
@@ -778,6 +793,7 @@ namespace Front_end
             else
             {
                 Application.Exit();
+               // this.Close();
                 /* Serializo para guardar los cambios en las lisas de entidades */
                 /*
                 using (XmlTextWriter Escribir = new XmlTextWriter(Path + "\\Docentes.xml", Encoding.UTF8))
