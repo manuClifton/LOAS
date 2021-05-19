@@ -47,10 +47,10 @@
             this.Lb_Cargo = new System.Windows.Forms.Label();
             this.cmbSector = new System.Windows.Forms.ComboBox();
             this.Lb_Sector = new System.Windows.Forms.Label();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
-            this.Lb_tipo = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.Lb_Direccion = new System.Windows.Forms.Label();
+            this.Lb_tipo = new System.Windows.Forms.Label();
+            this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBtnX)).BeginInit();
             this.panel2.SuspendLayout();
@@ -124,8 +124,8 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAgregar.Location = new System.Drawing.Point(350, 360);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
@@ -138,8 +138,8 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancelar.Location = new System.Drawing.Point(51, 360);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
@@ -282,34 +282,6 @@
             this.Lb_Sector.TabIndex = 35;
             this.Lb_Sector.Text = "Sector";
             // 
-            // cmbTipo
-            // 
-            this.cmbTipo.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Items.AddRange(new object[] {
-            "SuperAdmin",
-            "Admin",
-            "Gerent",
-            "Director",
-            "Generic"});
-            this.cmbTipo.Location = new System.Drawing.Point(157, 216);
-            this.cmbTipo.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(368, 25);
-            this.cmbTipo.TabIndex = 34;
-            // 
-            // Lb_tipo
-            // 
-            this.Lb_tipo.AutoSize = true;
-            this.Lb_tipo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_tipo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Lb_tipo.Location = new System.Drawing.Point(70, 219);
-            this.Lb_tipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lb_tipo.Name = "Lb_tipo";
-            this.Lb_tipo.Size = new System.Drawing.Size(34, 17);
-            this.Lb_tipo.TabIndex = 33;
-            this.Lb_tipo.Text = "Tipo";
-            // 
             // txtDireccion
             // 
             this.txtDireccion.BackColor = System.Drawing.SystemColors.MenuBar;
@@ -330,6 +302,34 @@
             this.Lb_Direccion.Size = new System.Drawing.Size(69, 17);
             this.Lb_Direccion.TabIndex = 31;
             this.Lb_Direccion.Text = "Direccion";
+            // 
+            // Lb_tipo
+            // 
+            this.Lb_tipo.AutoSize = true;
+            this.Lb_tipo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb_tipo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Lb_tipo.Location = new System.Drawing.Point(70, 219);
+            this.Lb_tipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lb_tipo.Name = "Lb_tipo";
+            this.Lb_tipo.Size = new System.Drawing.Size(34, 17);
+            this.Lb_tipo.TabIndex = 33;
+            this.Lb_tipo.Text = "Tipo";
+            // 
+            // cmbTipo
+            // 
+            this.cmbTipo.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "SuperAdmin",
+            "Admin",
+            "Gerent",
+            "Director",
+            "Generic"});
+            this.cmbTipo.Location = new System.Drawing.Point(157, 216);
+            this.cmbTipo.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbTipo.Name = "cmbTipo";
+            this.cmbTipo.Size = new System.Drawing.Size(368, 25);
+            this.cmbTipo.TabIndex = 34;
             // 
             // FrmAltaPersonal
             // 
@@ -374,11 +374,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label Lb_Direccion;
-        private System.Windows.Forms.ComboBox cmbTipo;
-        private System.Windows.Forms.Label Lb_tipo;
         private System.Windows.Forms.ComboBox cmbSector;
         private System.Windows.Forms.Label Lb_Sector;
         private System.Windows.Forms.TextBox txtCargo;
         private System.Windows.Forms.Label Lb_Cargo;
+        private System.Windows.Forms.ComboBox cmbTipo;
+        private System.Windows.Forms.Label Lb_tipo;
     }
 }

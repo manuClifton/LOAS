@@ -52,6 +52,12 @@
     <Compile Include="FrmAltaPersonal.designer.cs">
       <DependentUpon>FrmAltaPersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCreteNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreteNote.Designer.cs">
+      <DependentUpon>FrmCreteNote.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAltaPersonal.resx">
       <DependentUpon>FrmAltaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreteNote.resx">
+      <DependentUpon>FrmCreteNote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonal.resx">
       <DependentUpon>FrmPersonal.cs</DependentUpon>
